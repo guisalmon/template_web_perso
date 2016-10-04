@@ -313,7 +313,45 @@ body {
     background-color: #36454f
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 952px) {
+    #sidebar {
+        width:224px;
+    }
+    
+    #rob {
+        width: 224px;
+    }
+    
+    #navbottom {
+        width: 224px
+    }
+    
+    .faicon {
+        width: 40px;
+    }
+    
+    #sidebar div.divider {
+        width: 168px;
+    }
+    
+    #sidebar img.photo {
+        width: 224px;
+    }
+    
+    #sidebar div.image-container {
+        height: 112px;
+    }
+    
+    #footer {
+        margin-left: 224px;
+    }
+    
+    #content div.section {
+        padding-left: 296px;
+    }
+}
+
+@media screen and (max-width: 840px) {
     #rob {
         width: 100%;
     }
