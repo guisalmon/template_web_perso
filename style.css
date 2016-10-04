@@ -312,3 +312,50 @@ body {
     height:56px;
     background-color: #36454f
 }
+
+@media screen and (max-width: 1280px) {
+    #rob {
+        width: 100%;
+    }
+    
+    #navbottom {
+        position: absolute;
+        width: 100%;
+    }
+    
+    #sidebar {
+        width:100%;
+        z-index: 1;
+        height: 100%;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        background-color: transparent;
+    }
+
+    #sidebar img.photo {
+        width: 0px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #sidebar div.divider {
+        margin-left: 56px;
+        width: 0px;
+        height: 1px;
+        background-color: #dddddd;
+    }
+    
+    .nav {
+        width: 0px;
+        overflow: hidden;
+    }
+    
+    #content div.section {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .card2 {
+        width: 100%;
+        margin-top: 56px;
+    }
+}
