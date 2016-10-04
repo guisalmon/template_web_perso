@@ -347,7 +347,8 @@ body {
     }
     
     #content div.section {
-        padding-left: 296px;
+        padding-left: 240px;
+        padding-right: 16px;
     }
 }
 
