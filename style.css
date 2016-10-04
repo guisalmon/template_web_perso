@@ -165,12 +165,28 @@ body {
     padding-top: 56px;
 }
 
-#sidebar li p{
+#sidebar li div {
     padding: 24px;
     margin-left: 32px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #222222;
 }
 
-#sidebar li h2{
+#sidebar li a {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #222222;
+    text-decoration: none
+}
+
+#sidebar li a:hover {
+    color: #d91e18;
+}
+
+#sidebar li.active a {
+    color: #d91e18;
+}
+
+#sidebar li h2 {
     padding: 24px 24px 17px 24px;
     margin-left: 32px;
 }
@@ -228,12 +244,27 @@ body {
 .social {
     font-size: 34px;
     line-height: 45px;
-    color: #ffffff;
     align-content: center;
 }
 
 .faicon {
     width: 56px;
+}
+
+#navbottom a:link {
+    color: #ffffff;
+}
+
+#navbottom a:hover {
+    color: #d91e18;
+}
+
+#navbottom a:active {
+    color: #d91e18;
+}
+
+#navbottom a:visited {
+    color: #ffffff;
 }
 
 /* Main Page */
@@ -249,18 +280,18 @@ body {
 
 #content { 
     width:100%;
-    padding: 56px 0 56px 0;
+    padding: 0 0 112px 0;
 }
 
 #content div.section {
-    margin-left: 368px;
-    margin-top: 56px;
-    margin-right: 56px;
+    padding-left: 368px;
+    padding-top: 112px;
+    padding-right: 56px;
 }
 
 .card2 {
     width: 560px;
-    margin: 56px 56px 56px 0px;
+    margin-top: 56px;
 }
 
 .card img {
