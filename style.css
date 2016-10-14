@@ -421,22 +421,33 @@ strong {
 #header { 
     position: fixed;
     top: 0;
-    width:100%; 
+    width:100vw; 
     height:56px; 
-    margin:0 0 0 0;
+    margin-left: 280px;
     background-color: #36454f;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+#terrible_hack {
+    position: fixed;
+    top: 0;
+    width: 112px;
+    z-index: 1;
+    height: 56px;
+    background-color: #36454f;
+    margin-left: 368px
 }
 
 #content { 
     width:100%;
     padding: 0 0 112px 0;
+    overflow: hidden;
 }
 
 #content div.section {
     padding-left: 368px;
     padding-top: 112px;
-    padding-right: 56px;
+    padding-right: 112px;
 }
 
 .cardm {
@@ -501,6 +512,40 @@ strong {
 
 div.text li {
     padding-left: 32px;
+}
+    
+#progress {
+    height: 40px;
+    vertical-align: middle;
+    width: 100%;
+}
+    
+#progress p {
+    color: #222222;
+    line-height: 32px;
+    vertical-align: middle;
+    padding-left: 48px;
+}
+
+#progress div.c100 {
+    z-index: 0.50;
+}
+
+#progress div.faicon {
+    position: absolute;
+    background-color: #d91e18;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    vertical-align: middle;
+    align-content: center;
+}
+
+#progress div.faicon i {
+    line-height: 32px;
+    width: 100%;
+    text-align: center;
+    color: white;
 }
 
 #footer { 
@@ -598,6 +643,15 @@ div.text li {
         padding-right: 16px;
         margin-right: 32px;
     }
+    
+    #header {
+        width: 100vw;
+        margin-left: 224px;
+    }
+
+    #terrible_hack {
+        margin-left: 240px;
+    }
 }
 
 @media screen and (max-width: 840px) {
@@ -666,5 +720,18 @@ div.text li {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .text {
+        margin-right: 32px;
+        min-width: 256px
+    }
+    
+    #header {
+        visibility: hidden;
+    }
+
+    #terrible_hack {
+        visibility: hidden;
     }
 }
