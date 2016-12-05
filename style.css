@@ -142,6 +142,10 @@ strong {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.printonly {
+    display: none;
+}
+
 /* Page */
 
 .page {
@@ -369,6 +373,7 @@ strong {
 
 #navbottom {
     position: fixed;
+    z-index: 1;
     bottom: 0;
     left: 0;
     height: 48px;
@@ -394,6 +399,10 @@ strong {
     text-align: center;
     vertical-align: center;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+#rob h1:hover {
+    color: white;
 }
 
 #navbottom a:link {
@@ -426,6 +435,16 @@ strong {
     margin-left: 280px;
     background-color: #36454f;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+#header p {
+    visibility: hidden;
+    line-height: 56px;
+    color: white;
+    width: 100%;
+    padding-left: 20mm;
+    text-align: left;
+    vertical-align: middle;
 }
 
 #terrible_hack {

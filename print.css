@@ -1,0 +1,223 @@
+@import url("font-awesome.min.css");
+@import url('style.css');
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+@font-face {
+    font-family: "BebasNeueBold";
+    src: url('./fonts/BebasNeue Bold.otf');
+}
+@page {
+    margin: 0;
+}
+
+/* Reset */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+		list-style: none;
+	}
+
+blockquote, q {
+		quotes: none;
+	}
+
+blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+body {
+		-webkit-text-size-adjust: none;
+	}
+
+/* Basic */
+h1 {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 45px;
+    line-height: 48px;
+    color: #d91e18;
+    align-content: center;
+}
+
+h2 {
+    font-family: 'BebasNeueBold', sans-serif;
+    font-size: 20pt;
+    line-height: 10mm;
+    color: #36454f;
+    align-content: center;}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 16px;
+    line-height: 28px;
+    color: #36454f;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 16px;
+    line-height: 24px;
+    color: #36454f;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #222222;
+}
+
+body {
+    height: 100%;
+    font-size: 11pt;
+    line-height: 14pt;
+}
+
+a {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+strong {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    max-width: 210mm;
+    max-height: 297mm;
+}
+
+.noprint {
+    display: none;
+}
+
+.collapse {
+    display: none;
+    height: 0px;
+    width: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.card {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+#header {
+    z-index: 0.99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10mm;
+    margin-left: 0px;
+    width: 210mm;
+}
+
+#header p {
+    visibility: visible;
+    line-height: 10mm;
+}
+
+#sidebar div.image-container {
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 170mm;
+    width: 20mm;
+    height: 20mm;
+    overflow: hidden;
+    background-image: url(images/avatar.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+#sidebar img.photo {
+    visibility: hidden;
+    height: 20mm;
+    background-position: right;
+    background-size: cover;
+}
+
+#terrible_hack {
+    visibility: hidden;
+}
+
+#content {
+    z-index: 0.80;
+    position: absolute;
+    width: 210mm;
+    max-height: 270mm;
+    top: 10mm;
+    left: 0px;
+}
+
+#content div.section {
+    padding-left: 20mm;
+    padding-top: 1mm;
+    width: 170mm;
+}
+
+#content div.section h2 {
+    line-height: 7mm;
+    vertical-align: middle;
+}
+
+.project_content {
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.project_content img {
+    width: 0;
+}
+
+.project_content div.text {
+    padding-left: 0;
+}
+
+.project_content div.text p {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.project_content div.text h4 {
+    color: #999999;
+    padding: 2mm 0 0 0;
+}
+
+.project_content div.text strong {
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.project_content div.text a {
+    color: #36454f;
+    line-height: 24px;
+    vertical-align: bottom;
+    font-weight: bold;
+}
